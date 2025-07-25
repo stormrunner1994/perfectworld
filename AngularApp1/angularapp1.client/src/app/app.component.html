@@ -1,24 +1,38 @@
-﻿<h1 id="tableLabel">Weather forecast</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
+<section>
+  <h1 id="tableLabel">Willkommen auf der Website Perfect World</h1>
+  <p>
+    Das Ziel dieser Plattform ist es, über die größten Themen der aktuellen Weltsituation zu diskutieren
+    und pragmatische Lösungen zu finden. Auch wenn man sich als Individuum meistens sehr ohnmächtig gegenüber
+    diesen Problemen sieht, ist die logische Konsequenz nicht automatisch, alles hinzunehmen.
+    <strong>Im Gegenteil:</strong> Wer nicht kämpft, der hat schon verloren. Außerdem ist ein optimistischer
+    Mensch nachweislich auch ein glücklicher.
+  </p>
+  <p>
+    Wir freuen uns auf deine Teilnahme, Ideen und Feedback.
+  </p>
+  <p>
+    Liebe Grüße,<br />
+    das Team von <em>Perfectworld.com</em>
+  </p>
+</section>
 
 <p *ngIf="!forecasts"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
 
 <table *ngIf="forecasts">
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let forecast of forecasts">
-            <td>{{ forecast.date }}</td>
-            <td>{{ forecast.temperatureC }}</td>
-            <td>{{ forecast.temperatureF }}</td>
-            <td>{{ forecast.summary }}</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Temp. (F)</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecasts">
+      <td>{{ forecast.date }}</td>
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.temperatureF }}</td>
+      <td>{{ forecast.summary }}</td>
+    </tr>
+  </tbody>
 </table>

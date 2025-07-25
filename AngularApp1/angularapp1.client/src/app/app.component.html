@@ -38,109 +38,106 @@
     </p>
   </section>
 
-    <section>
+  <section>
+    <details>
+      <summary>Gesundheit</summary>
+      <p>kein Hunger, faires und unkompliziertes Gesundheitssystem ...</p>
+      <app-topic-input topic="Gesundheit"></app-topic-input>
+    </details>
 
-      <details>
-        <summary>Gesundheit</summary>
-        <p>kein Hunger, faires und unkompliziertes Gesundheitssystem, bestes Versicherungspaket für jeden Menschen, kein Über-, Untergewicht, Krebsrisiko minimieren, Zuckeransicht bei der Einkaufskasse,</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Gesundheit..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
 
-      <details>
-        <summary>Weltfrieden</summary>
-        <p>keine Kriege</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Weltfrieden..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Weltfrieden</summary>
+      <p>keine Kriege</p>
+      <app-topic-input [topic]="'Gesundheit'"></app-topic-input>
+    </details>
 
-      <details>
-        <summary>Migration</summary>
-        <p>Inhalt zu Migration</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Migration..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Migration</summary>
+      <p>Inhalt zu Migration</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Migration..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Energie</summary>
-        <p>Stärkere Länder helfen schwächeren Länder ohne Ausbeutung und eigene, egoistische Ziele</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Energie..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Energie</summary>
+      <p>Stärkere Länder helfen schwächeren Länder ohne Ausbeutung und eigene, egoistische Ziele</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Energie..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Politik</summary>
-        <p>minimale Korruption, ernsthafte Konsequenzen für Politiker bei Fehlverhalten, mehr Transparenz in Demokratie/Politik, mehr Macht des Volkes durch Volksabstimmung, friedliche Demonstration und Petitionen, Bürokratie Abbau</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Politik..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Politik</summary>
+      <p>minimale Korruption, ernsthafte Konsequenzen für Politiker bei Fehlverhalten, mehr Transparenz in Demokratie/Politik, mehr Macht des Volkes durch Volksabstimmung, friedliche Demonstration und Petitionen, Bürokratie Abbau</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Politik..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Menschenrechte</summary>
-        <p>Maximale Zufriedenheit für alle, keine Kinderarbeit, keine Armut, keine Obdachlosigkeit, soziale und finanzielle Absicherung, Grundrecht auf Versicherung, reduzieren von vermeidbarem Frust, glückliche Beziehungen/ Partnerschaft, jeder hat Plan für den Tag, Abschaffen der Todesstrafe, aber Gefangenen sollen während Haftstrafe etwas fürs Gemeinwesen tun</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Menschenrechte..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Menschenrechte</summary>
+      <p>Maximale Zufriedenheit für alle, keine Kinderarbeit, keine Armut, keine Obdachlosigkeit, soziale und finanzielle Absicherung, Grundrecht auf Versicherung, reduzieren von vermeidbarem Frust, glückliche Beziehungen/ Partnerschaft, jeder hat Plan für den Tag, Abschaffen der Todesstrafe, aber Gefangenen sollen während Haftstrafe etwas fürs Gemeinwesen tun</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Menschenrechte..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Bildung</summary>
-        <p>Bildung für alle frei verfügbar</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Bildung..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Bildung</summary>
+      <p>Bildung für alle frei verfügbar</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Bildung..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Klima</summary>
-        <p>Klima und Tierschutz, Sinnvolle Energie Politik, Öl Gas, Sonnenenergie, Wasserkraft, Windenergie, Onlineshopping soll teurer sein als lokale Läden, damit Innenstadt und Markt nicht ausstirbt, Verbot der Benutzung von Autos an bestimmten Tagen, in der Stadt, keine Flüge unter 500km erlauben, weniger Kreuzfahrten</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Klima..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Klima</summary>
+      <p>Klima und Tierschutz, Sinnvolle Energie Politik, Öl Gas, Sonnenenergie, Wasserkraft, Windenergie, Onlineshopping soll teurer sein als lokale Läden, damit Innenstadt und Markt nicht ausstirbt, Verbot der Benutzung von Autos an bestimmten Tagen, in der Stadt, keine Flüge unter 500km erlauben, weniger Kreuzfahrten</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Klima..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
 
-      <details>
-        <summary>Künstliche Intelligenz</summary>
-        <p>Technologie als Hilfsmittel und Optimierung des Alltags</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Künstliche Intelligenz..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+    <details>
+      <summary>Künstliche Intelligenz</summary>
+      <p>Technologie als Hilfsmittel und Optimierung des Alltags</p>
+      <div class="input-frame">
+        ho
+        <textarea placeholder="Dein Beitrag zu Künstliche Intelligenz..."></textarea>
+        
 
-      <details>
-        <summary>Finanzen</summary>
-        <p>Kapitalismus nicht zum Leidwesen schwächerer, Erbschaftssteuer, mehr Steuern für Reiche, weniger Steuern für einkommensschwächere</p>
-        <div class="input-frame">
-          <textarea placeholder="Dein Beitrag zu Finanzen..."></textarea>
-          <br />
-          <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
-        </div>
-      </details>
+        <br />
+        
 
-    </section>
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
+
+    <details>
+      <summary>Finanzen</summary>
+      <p>Kapitalismus nicht zum Leidwesen schwächerer, Erbschaftssteuer, mehr Steuern für Reiche, weniger Steuern für einkommensschwächere</p>
+      <div class="input-frame">
+        <textarea placeholder="Dein Beitrag zu Finanzen..."></textarea>
+        <br />
+        <button onclick="alert('Dein Text wurde (simuliert) an die Datenbank gesendet.')">Senden</button>
+      </div>
+    </details>
+
+  </section>
 
 <!--<p *ngIf="!forecasts"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
 
